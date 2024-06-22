@@ -1,0 +1,52 @@
+* {
+  font-family: FontAwesome, Roboto, Helvetica, Arial, sans-serif;
+  font-size: 13px;
+}
+
+window#waybar {
+  background-color: transparent;
+}
+
+#workspaces,
+
+#clock,
+#custom-weather,
+
+#network,
+#cpu,
+#memory,
+#tray,
+#custom-power {
+  padding: 0 10px;
+  background-color: #1e1e1e;
+  border-radius: 20px;
+}
+
+#workspaces button {
+  color: gray;
+}
+
+#workspaces button.active,
+#clock {
+  color: white;
+}
+
+#cpu {
+  color: greenyellow;
+}
+
+#memory {
+  color: darkorchid;
+}
+
+#network {
+  color: cyan;
+}
+
+#network.disconnected {
+  color: red;
+}
+
+#custom-power {
+  color: crimson;
+}

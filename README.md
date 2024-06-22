@@ -1,0 +1,1 @@
+pacman -S hyprland waybar otf-font-awesome
