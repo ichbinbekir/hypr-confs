@@ -30,7 +30,7 @@
   "custom/weather": {
     "exec": "curl https://wttr.in/Dörtyol-Hatay?format=1",
     "interval": 3600,
-    "on-click": "brave https://wttr.in/Dörtyol-Hatay"
+    "on-click": "open https://wttr.in/Dörtyol-Hatay"
   },
   
   "network": {
