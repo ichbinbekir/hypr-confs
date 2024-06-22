@@ -33,8 +33,6 @@ $ chsh -s /usr/bin/fish
 $ sudo systemctl enable --now sddm
 ```
 
-Aynı zamanda bu repo'yu  içerisinie clone'lemeyi unutmayın.
-
 ## Sddm
 [Sddm](#sddm) bizim kullanıcı oturumu açmak ve pencere yöneticisini başlatmak için kullandığımız araç.
 
