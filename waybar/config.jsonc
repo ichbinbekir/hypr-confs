@@ -2,9 +2,7 @@
   "margin-top": 10,
   "margin-right": 10,
   "margin-left": 10,
-  
   "spacing": 5,
-  
   "modules-left": [
     "hyprland/workspaces"
   ],
@@ -13,43 +11,41 @@
     "custom/weather"
   ],
   "modules-right": [
+    "custom/picker",
     "network",
     "cpu",
     "memory",
-    "tray",
-    "custom/power"
+    "tray"
   ],
-  
   "hyprland/workspaces": {
     "sort-by-number": true
   },
-
   "clock": {
     "format": " {:%H:%M   %e %b}"
   },
   "custom/weather": {
     "exec": "curl https://wttr.in/Dörtyol-Hatay?format=1",
     "interval": 3600,
-    "on-click": "open https://wttr.in/Dörtyol-Hatay"
+    "on-click": "brave https://wttr.in/Dörtyol-Hatay"
   },
-  
+  "custom/picker": {
+    "format": "",
+    "on-click": "hyprpicker | wl-copy"
+  },
   "network": {
     "interval": 1,
     "format-ethernet": " {bandwidthDownBytes}   {bandwidthUpBytes} "
   },
   "cpu": {
+    "interval": 1,
     "format": "{usage}% "
   },
   "memory": {
-    "interval": 10,
+    "interval": 1,
     "format": "{percentage}% "
   },
   "tray": {
     "icon-size": 15,
     "spacing": 5
-  },
-  "custom/power": {
-    "format": "",
-    "on-click": "shutdown now"
   }
 }

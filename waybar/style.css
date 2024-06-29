@@ -12,13 +12,13 @@ window#waybar {
 #clock,
 #custom-weather,
 
+#custom-picker,
 #network,
 #cpu,
 #memory,
-#tray,
-#custom-power {
+#tray {
   padding: 0 10px;
-  background-color: #1e1e1e;
+  background-color: rgba(30, 30, 30, 0.75);
   border-radius: 20px;
 }
 
@@ -31,22 +31,14 @@ window#waybar {
   color: white;
 }
 
+#network {
+  color: cyan;
+}
+
 #cpu {
   color: greenyellow;
 }
 
 #memory {
   color: darkorchid;
-}
-
-#network {
-  color: cyan;
-}
-
-#network.disconnected {
-  color: red;
-}
-
-#custom-power {
-  color: crimson;
 }
