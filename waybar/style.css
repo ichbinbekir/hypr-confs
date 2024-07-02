@@ -16,7 +16,8 @@ window#waybar {
 #network,
 #cpu,
 #memory,
-#tray {
+#tray,
+#custom-power {
   padding: 0 10px;
   background-color: rgba(30, 30, 30, 0.75);
   border-radius: 20px;
@@ -41,4 +42,8 @@ window#waybar {
 
 #memory {
   color: darkorchid;
+}
+
+#custom-power {
+  color: red;
 }
